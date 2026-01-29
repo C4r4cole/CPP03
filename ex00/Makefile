@@ -6,7 +6,7 @@
 #    By: fmoulin <fmoulin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/11 14:02:02 by fmoulin           #+#    #+#              #
-#    Updated: 2026/01/27 17:52:03 by fmoulin          ###   ########.fr        #
+#    Updated: 2026/01/29 14:51:46 by fmoulin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 #           CONFIG
 # ===========================
 
-NAME        = BSP
+NAME        = ClapTrap
 
 OBJ_DIR     = obj
 
@@ -26,7 +26,7 @@ RM          = rm -f
 #           SOURCES
 # ===========================
 
-SRCS =  main.cpp Fixed.cpp Point.cpp bsp.cpp
+SRCS =  main.cpp ClapTrap.cpp
 		
 OBJS = $(SRCS:%.cpp=$(OBJ_DIR)/%.o)
 
